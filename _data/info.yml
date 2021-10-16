@@ -1,0 +1,41 @@
+name: Ayan Chakrabarti
+photo: faces/ayan.jpg
+
+meta_desc: "Ayan Chakrabarti. Researcher in machine learning, computer vision, and computational photography."
+meta_keywords: "ayan chakrabarti, google research, computer vision, computational photography, machine learning, washington university, WUSTL, TTIC, harvard, iit madras"
+
+links: |
+  [Google Scholar](https://scholar.google.com/citations?user=0v5utcwAAAAJ) /
+  [GitHub](https://github.com/ayanc) /
+  [CV](https://projects.ayanc.org/pdfs/Chakrabarti_CV.pdf)
+
+bio: |
+  I am a Research Scientist at [Google research in New York](https://research.google/locations/new-york/). 
+  I am interested in problems in machine learning, computer vision, and computational photography.
+  
+  I received my PhD advised by [Todd Zickler](http://www.eecs.harvard.edu/~zickler/) 
+  at [Harvard University](https://seas.harvard.edu/), and did my undergraduate studies at [IIT 
+  Madras](https://www.iitm.ac.in/). Before joining Google, I was an assistant professor of 
+  computer science at [WashU](https://www.cse.wustl.edu/), a research assistant professor at 
+  the [Toyota Technological Institute at Chicago](https://www.ttic.edu/), and a post-doctoral 
+  fellow at Harvard.
+
+one_line: "Research Scientist, [Google](https://research.google/locations/new-york/)"
+
+sections:
+
+  - title: Teaching
+    content: |
+      - [Computer Vision](https://www.cse.wustl.edu/~ayan/courses/cse559a/): WashU CSE 559A in Fall 17, 18, 19, 20.
+      - [Advances in Computer Vision](https://www.cse.wustl.edu/~ayan/courses/cse659a/): WashU CSE 659A in Spring 19, 20.
+
+  - title: Service
+    content: |
+      - **Program Chair & Organizer**: [ICCP 2020](https://iccp2020.engr.wustl.edu/)
+        (+ Guest Editor [PAMI special section](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9108332&punumber=34))
+      - **Area Chair**: 
+        [CVPR 2021](http://cvpr2021.thecvf.com/area-chairs),
+        [ECCV 2020](https://eccv2020.eu/area-chairs/),
+        [ICCV 2019](https://iccv2019.thecvf.com/area_chairs)
+        [CVPR 2018](https://cvpr2018.thecvf.com/organizers/area_chairs),
+        [3DV 2017](http://irc.cs.sdu.edu.cn/3dv/people.html).

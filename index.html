@@ -1,0 +1,97 @@
+---
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{site.data.info.meta_desc}}">
+        <meta name="keywords" content="{{site.data.info.meta_keywords}}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <style>
+         .smaller {font-size: 0.9em;}
+         .smallest {font-size: 0.85em;}
+         div.container {max-width: 800px;}
+         .display-4 {font-size: 2.00em; font-weight: 400; color: #444;}
+         .display-5 {font-size: 1.5em; font-weight: 450; color: #444;}
+         a {text-decoration: none; font-weight: 450;}
+        </style>
+        <title>{{site.data.info.name}}</title>
+        <base target=_blank>
+    </head>
+    <body>
+        <div class="container pb-2 pt-2 px-3">
+            <div class="row">
+
+                <div class="col-8 d-none d-md-block mb-0 pb-0">
+                    <h4 class="display-4 text-center w-100 mb-4 mt-5">{{site.data.info.name}}</h4>
+                    <div class="smallest">
+                        {{site.data.info.bio | markdownify}}
+                        <div class="text-center pb-0 mb-0">
+                            {{site.data.info.links | markdownify}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mt-md-5 text-center">
+                    <img alt="Photo of {{site.data.info.name}}" 
+                    src="{{site.data.info.photo}}" 
+                    style="max-height: 40vh; max-width: 100%; clip-path: circle(50% at 50% 50%);">
+                </div>
+
+                <div class="col-12 d-block d-md-none text-center pt-3 pb-3 mb-0 border-bottom">
+                    <h4 class="display-4">{{site.data.info.name}}</h4>
+                    <div class="lead"><i>{{site.data.info.one_line | markdownify}}</i></div>
+                    {{site.data.info.links | markdownify}}
+                </div>
+
+            </div>
+        </div>
+        <div class="container pb-3 pt-0 mt-0">
+            <p class="mt-3 mt-md-5 mb-2 display-5">Research</p>
+            <div class="px-3">
+
+            {% for paper in site.data.papers.papers %}
+                <div class="row align-items-center pb-1 pt-2 pb-md-3 pt-md-4 border-bottom">
+                <div class="col-12 col-md-4 col-lg-3 px-0 pt-3 pt-md-0 pb-3 text-center align-items-center">
+                <img alt="teaser image" style="max-width: 100%; max-height: 9em;" src="teaser/{{paper.teaser}}.jpg">
+                </div>
+                <div class="col-12 col-md-8 col-lg-9 pt-0 pb-0 mb-0 mt-2 mt-md-0 ps-0 ps-md-5 smaller">
+                <p class="pb-0 mb-0"><strong>{{paper.title}}</strong></p><p class="pt-0 mt-0 pb-0 mb-0">
+                <span class="text-muted"><strong>
+                    {{paper.venue}}
+                    {% if paper.badge %}<span class="text-danger">({{paper.badge}})</span>{% endif %}
+                </strong></span> 
+                </p><p class="pt-1 mt-0 pb-0 mb-0">
+{%- if paper.author[0].url -%}<a href="{{paper.author[0].url}}">{{paper.author[0].name}}</a>{%- else -%}<!--
+-->{{paper.author[0].name}}{%- endif -%}{%- for auth in paper.author offset: 1 -%}{%- if auth.url -%}<!-- 
+-->, <a href="{{auth.url}}">{{auth.name}}</a>{%- else -%}, {{auth.name}}{%- endif -%}{%- endfor -%}
+                </p><p class="mt-2 pt-0">
+                {% for button in paper.buttons %}    
+                <a href="{{button[1]}}" class="btn btn-sm btn-outline-primary me-2" role="button">{{button[0]}}</a>
+                {% endfor %}
+                </p></div></div>
+
+            {% endfor %}
+
+            </div>
+        </div>
+        {% for section in site.data.info.sections %}
+        <div class="container pb-2 pt-4">
+            <p class="mt-3 mb-4 display-5">{{section.title}}</p>
+            <div class="px-3 smaller">
+                {{ section.content | markdownify }}
+            </div>
+        </div>
+        {% endfor %}
+        <div class="container-fluid text-light bg-dark mt-3 py-3 px-3 smallest">
+            <div class="text-start mb-3">
+            Get <a href="https://github.com/ayanc/websrc/">website source</a>. Design inspired by <a href="https://jonbarron.info/">Jon's site</a>.
+            </div>
+            <div class="text-end">Copyright &copy; {{site.time | date: "%Y"}}, {{site.data.info.name}}</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,472 @@
+authors:
+  - &me
+    name: "<b class='text-muted'>Ayan Chakrabarti</b>"
+  - &andvei
+    name: Andreas Veit
+    url: "https://www.andreasveit.eu/"
+  - &anraj
+    name: A.N. Rajagopalan
+    url: "https://www.ee.iitm.ac.in/~raju/"
+  - &aswsan
+    name: Aswin C. Sankaranarayanan
+    url: "http://users.ece.cmu.edu/~saswin/"
+  - &baosun
+    name: Baochen Sun
+    url: "https://www.microsoft.com/en-us/research/people/baochens/"
+  - &behney
+    name: Behnam Neyshabur
+    url: "https://www.neyshabur.net/"
+  - &benmos
+    name: Benjamin Moseley
+    url: "https://www.andrew.cmu.edu/user/moseleyb/"
+  - &chasch
+    name: Charles Schaff
+    url: "https://home.ttic.edu/~cbschaff/"
+  - &chelu
+    name: Chenyang Lu
+    url: "https://www.cse.wustl.edu/~lu/"
+  - &dalli
+    name: Daliang Li
+    url: "https://scholar.google.com/citations?user=Am6f2DsAAAAJ&hl=en"
+  - &dangla
+    name: Daniel Glasner
+    url: "https://sites.google.com/site/dglasner/home"
+  - &dansch
+    name: Daniel Scharstein
+    url: "https://www.cs.middlebury.edu/~schar/"
+  - &davjac
+    name: David W. Jacobs
+    url: "http://www.cs.umd.edu/~djacobs/"
+  - &davyun
+    name: David Yunis
+    url: "https://dyunis.github.io/"
+  - &fedper
+    name: Federico Perazzi
+    url: "https://fperazzi.github.io/"
+  - &frapit
+    name: Francesco Pittaluga
+    url: "https://www.francescopittaluga.com/"
+  - &gresha
+    name: Gregory Shakhnarovich
+    url: "https://home.ttic.edu/~gregory/"
+  - &igovas
+    name: Igor Vasiljevic
+    url: "https://home.ttic.edu/~ivas/"
+  - &jialiu
+    name: Jiangnan Liu
+  - &jinyan
+    name: Jinghan Yang
+    url: "https://scholar.google.com/citations?user=UAvSbSEAAAAJ&hl=en"
+  - &jinsha
+    name: Jingyu Shao
+  - &kalsun
+    name: Kalyan Sunkavalli
+    url: "http://www.kalyans.org/"
+  - &katsae
+    name: Kate Saenko
+    url: "http://ai.bu.edu/ksaenko.html"
+  - &keihir
+    name: Keigo Hirakawa
+    url: "https://udayton.edu/directory/engineering/electrical_and_computer/hirakawa_keigo.php"
+  - &kylyee
+    name: Kyle Yee
+    url: "https://kyleyee23.github.io/"
+  - &liuke
+    name: Liu Ke
+    url: "https://sites.google.com/view/liu-ke"
+  - &matwal
+    name: Matthew R. Walter
+    url: "https://home.ttic.edu/~mwalter/"
+  - &micgha
+    name: Micha&euml;l Gharbi
+    url: "http://mgharbi.com/"
+  - &patsul
+    name: Patrick Sullivan
+    url: "https://scholar.google.com/citations?hl=en&user=dHQkRPwAAAAJ"
+  - &ramche
+    name: Rama Chellappa
+    url: "https://engineering.jhu.edu/ece/faculty/rama-chellappa/"
+  - &rocgue
+    name: Roch Gu&eacute;rin
+    url: "https://rochguerin.github.io/"
+  - &ronbas
+    name: Ronen Basri
+    url: "https://www.weizmann.ac.il/math/ronen/"
+  - &sankop
+    name: Sanjeev J. Koppal
+    url: "https://focus.ece.ufl.edu/people/"
+  - &sribho
+    name: Srinadh Bhojanapalli
+    url: "https://bsrinadh.github.io/"
+  - &stegor
+    name: Steven J. Gortler
+    url: "http://www.eecs.harvard.edu/~sjg/"
+  - &thount
+    name: Thomas Unterthiner
+    url: "https://scholar.google.at/citations?user=QCARd5gAAAAJ&hl=en"
+  - &todzic
+    name: Todd Zickler
+    url: "http://www.eecs.harvard.edu/~zickler/Main/HomePage"
+  - &tredar
+    name: Trevor Darrell
+    url: "https://people.eecs.berkeley.edu/~trevor/"
+  - &treowe
+    name: Trevor Owens
+  - &weicao
+    name: Weidong Cao
+    url: "https://xzgroup.wustl.edu/people/weidong-cao/"
+  - &wilfre
+    name: William T. Freeman
+    url: "https://billf.mit.edu/"
+  - &xinhe
+    name: Xin He
+    url: "https://hex0102.github.io/"
+  - &xuazha
+    name: Xuan Zhang
+    url: "https://xzgroup.wustl.edu/people/xuan-silvia-zhang/"
+  - &yevvor
+    name: Yevgeniy Vorobeychik
+    url: "https://vorobeychik.com/"
+  - &yinxio
+    name: Ying Xiong
+    url: "http://ying.xiongs.org/"
+  - &zhixia
+    name: Zhihao Xia
+    url: "https://likesum.github.io/"
+  - &zhuhui
+    name: Zhuo Hui
+    url: "https://huizhuo1987.github.io/"
+
+
+papers:
+  
+  
+  - teaser: uvit
+    title: 'Understanding Robustness of Transformers for Image Classification'
+    venue: 'ICCV 2021'
+    author: [*sribho, *me, *dangla, *dalli, *thount, *andvei]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/2103.14586']
+
+      
+  - teaser: dfnf
+    title: 'Deep Denoising of Flash and No-Flash Pairs for Photography in&nbsp;Low&#8209;Light&nbsp;Environments'
+    venue: 'CVPR 2021'
+    author: [*zhixia, *micgha, *fedper, *kalsun, *me]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/2012.05116']
+      - ['project', 'https://likesum.github.io/deepfnf/']
+ 
+
+  - teaser: emdp
+    title: 'Real-Time Edge Classification: Optimal Offloading under Token&nbsp;Bucket&nbsp;Constraints'
+    venue: 'SEC 2021'
+    author: [*me, *rocgue, *chelu, *jialiu]
+    buttons:
+      - ['arxiv', 'https://arxiv.org/abs/2010.13737']
+      - ['code', 'https://github.com/ayanc/edgeml.mdp']
+ 
+
+  - teaser: prd
+    title: 'Generating and Exploiting Probabilistic Monocular Depth Estimates'
+    venue: 'CVPR 2020'
+    badge: 'oral'
+    author: [*zhixia, *patsul, *me]
+    buttons:
+      - ['paper', 'https://openaccess.thecvf.com/content_CVPR_2020/html/Xia_Generating_and_Exploiting_Probabilistic_Monocular_Depth_Estimates_CVPR_2020_paper.html']
+      - ['project', 'https://projects.ayanc.org/prdepth/']
+ 
+
+  - teaser: bpn
+    title: 'Basis Prediction Networks for Effective Burst Denoising with Large Kernels'
+    venue: 'CVPR 2020'
+    author: [*zhixia, *fedper, *micgha, *kalsun, *me]
+    buttons:
+      - ['paper', 'https://openaccess.thecvf.com/content_CVPR_2020/html/Xia_Basis_Prediction_Networks_for_Effective_Burst_Denoising_With_Large_Kernels_CVPR_2020_paper.html']
+      - ['project', 'https://likesum.github.io/bpn/']
+ 
+
+  - teaser: geopriv
+    title: 'Protecting Geolocation Privacy of Photo Collections'
+    venue: 'AAAI 2020'
+    author: [*jinyan, *me, *yevvor]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1912.02085']
+      - ['project', 'https://github.com/jinghanY/geoPrivacyAlbum']
+ 
+
+  - teaser: fdscs
+    title: 'Fast Deep Stereo with 2D Convolutional Processing of Cost Signatures'
+    venue: 'WACV 2020'
+    author: [*kylyee, *me]
+    buttons:
+      - ['paper', 'https://openaccess.thecvf.com/content_WACV_2020/papers/Yee_Fast_Deep_Stereo_with_2D_Convolutional_Processing_of_Cost_Signatures_WACV_2020_paper.pdf']
+      - ['project', 'https://projects.ayanc.org/fdscs/']
+ 
+
+  - teaser: rpcnn
+    title: 'Identifying Recurring Patterns with Deep Neural Networks for Natural Image&nbsp;Denoising'
+    venue: 'WACV 2020'
+    author: [*zhixia, *me]
+    buttons:
+      - ['paper', 'https://openaccess.thecvf.com/content_WACV_2020/papers/Xia_Identifying_Recurring_Patterns_with_Deep_Neural_Networks_for_Natural_Image_WACV_2020_paper.pdf']
+      - ['project', 'https://projects.ayanc.org/rpcnn/']
+ 
+
+  - teaser: usi
+    title: 'Training Image Estimators without Image Ground-Truth'
+    venue: 'NeurIPS 2019'
+    badge: 'spotlight'
+    author: [*zhixia, *me]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1906.5775']
+      - ['project', 'https://projects.ayanc.org/unsupimg/']
+ 
+
+  - teaser: blpa
+    title: 'Backprop with Approximate Activations for Memory-efficient Network Training'
+    venue: 'NeurIPS 2019'
+    author: [*me, *benmos]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1901.07988']
+      - ['project', 'https://projects.ayanc.org/blpa/']
+ 
+
+  - teaser: neupipe
+    title: 'Neural Network-Inspired Analog-to-Digital Conversion to Achieve Super-Resolution with Low-Precision RRAM Devices'
+    venue: 'ICCAD 2019 + TCAD'
+    author: [*weicao, *liuke, *me, *xuazha]
+    buttons:
+      - ['ICCAD', 'https://arxiv.org/abs/1911.12815']
+      - ['TCAD', 'https://ieeexplore.ieee.org/abstract/document/9154425']
+ 
+
+  - teaser: lsep
+    title: 'Learning to Separate Multiple Illuminants in a Single&nbsp;Image'
+    venue: 'CVPR 2019'
+    author: [*zhuhui, *me, *kalsun, *aswsan]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1811.12481']
+      - ['project', 'https://huizhuo1987.github.io/learningIllum.html']
+ 
+
+  - teaser: nlimb
+    title: 'Jointly Learning to Construct and Control Agents using Deep Re&shy;infor&shy;cement Learning'
+    venue: 'ICRA 2019'
+    author: [*chasch, *davyun, *me, *matwal]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1801.01432']
+      - ['project', 'http://ttic.uchicago.edu/~cbschaff/nlimb/']
+ 
+
+  - teaser: neuadc
+    title: 'NeuADC: Neural Network-Inspired RRAM-Based Syn&shy;the&shy;siz&shy;able Analog-to-Digital Conversion with Re&shy;conf&shy;igur&shy;able Quantization&nbsp;Support'
+    venue: 'DATE 2019 + TCAD'
+    author: [*weicao, *xinhe, *me, *xuazha]
+    buttons:
+      - ['DATE', 'https://ieeexplore.ieee.org/abstract/document/8714933/']
+      - ['TCAD', 'https://ieeexplore.ieee.org/abstract/document/8747407/']
+ 
+
+  - teaser: pvnet
+    title: 'Learning Privacy Preserving Encodings through Adv&shy;er&shy;sarial&nbsp;Training'
+    venue: 'WACV 2019'
+    author: [*frapit, *sankop, *me]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1802.05214']
+ 
+
+  - teaser: rpgan
+    title: 'Stabilizing GAN Training with Multiple Random&nbsp;Projections'
+    venue: 'arXiv 2018'
+    author: [*behney, *sribho, *me]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1705.07831']
+      - ['project', 'https://projects.ayanc.org/rpgan/']
+ 
+
+  - teaser: nbp
+    title: 'Jointly Optimizing Placement and Inference for Beacon-based Localization'
+    venue: 'IROS 2017'
+    author: [*chasch, *davyun, *me, *matwal]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1703.08612']
+      - ['project', 'https://ttic.uchicago.edu/~cbschaff/nbp/']
+ 
+
+  - teaser: nnblur
+    title: 'Examining the Impact of Blur on Recognition by Conv&shy;olut&shy;ional Networks'
+    venue: 'arXiv 2017'
+    author: [*igovas, *me, *gresha]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1611.05760']
+ 
+
+  - teaser: dcam
+    title: 'Learning Sensor Multiplexing Design through Back-propagation'
+    venue: 'NeurIPS 2016'
+    author: [*me]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1605.07078']
+      - ['project', 'https://projects.ayanc.org/learncfa/']
+ 
+
+  - teaser: mdepth
+    title: 'Depth from a Single Image by Harmonizing Overcomplete Local&nbsp;Network&nbsp;Predictions'
+    venue: 'NeurIPS 2016'
+    author: [*me, *jinsha, *gresha]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1605.07081']
+      - ['project', 'https://projects.ayanc.org/mdepth/']
+ 
+
+  - teaser: rgbps
+    title: 'Single-image RGB Photometric Stereo With Spatially-varying Albedo'
+    venue: '3DV 2016'
+    badge: 'oral'
+    author: [*me, *kalsun]
+    buttons:
+      - ['paper', 'https://arxiv.org/abs/1609.04079']
+      - ['project', 'https://projects.ayanc.org/rgbps/']
+ 
+
+  - teaser: ndeblur
+    title: 'A Neural Approach to Blind Motion Deblurring'
+    venue: 'ECCV 2016'
+    author: [*me]
+    buttons:
+      - ['paper', 'http://arxiv.org/abs/1603.04771']
+      - ['project', 'https://projects.ayanc.org/ndeblur/']
+ 
+
+  - teaser: hcc
+    title: 'Color Constancy by Learning to Predict Chromaticity from&nbsp;Luminance'
+    venue: 'NeurIPS 2015'
+    badge: 'spotlight'
+    author: [*me]
+    buttons:
+      - ['paper', 'http://arxiv.org/abs/1506.02167']
+      - ['project', 'https://projects.ayanc.org/chromcc/']
+ 
+
+  - teaser: cop
+    title: 'Low-level Vision by Consensus in a Spatial Hierarchy of&nbsp;Regions'
+    venue: 'CVPR 2015'
+    author: [*me, *yinxio, *stegor, *todzic]
+    buttons:
+      - ['paper', 'http://arxiv.org/abs/1411.4894']
+      - ['project', 'https://projects.ayanc.org/consensus/']
+ 
+
+  - teaser: qsfs
+    title: 'From Shading to Local&nbsp;Shape'
+    venue: 'PAMI 2015'
+    author: [*yinxio, *me, *ronbas, *stegor, *davjac, *todzic]
+    buttons:
+      - ['paper', 'http://arxiv.org/abs/1310.2916']
+      - ['project', 'http://vision.seas.harvard.edu/qsfs/']
+ 
+
+  - teaser: probder
+    title: 'Modeling Radiometric Uncertainty for Vision with Tone-mapped Color&nbsp;Images'
+    venue: 'PAMI 2014'
+    author: [*me, *yinxio, *baosun, *tredar, *dansch, *todzic, *katsae]
+    buttons:
+      - ['paper', 'http://arxiv.org/abs/1311.6887']
+      - ['project', 'http://vision.seas.harvard.edu/derender/']
+ 
+
+  - teaser: newdm
+    title: 'Rethinking Color Cameras'
+    venue: 'ICCP 2014'
+    author: [*me, *wilfre, *todzic]
+    buttons:
+      - ['paper', 'http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6831801']
+      - ['project', 'http://vision.seas.harvard.edu/colorsensor/']
+ 
+
+  - teaser: ccap
+    title: 'Depth and Deblurring from a Spectrally-varying Depth-of-Field'
+    venue: 'ECCV 2012'
+    author: [*me, *todzic]
+    buttons:
+      - ['paper', 'http://vision.seas.harvard.edu/ccap/CZ_ccap.pdf']
+      - ['project', 'http://vision.seas.harvard.edu/ccap/']
+      - ['video', 'https://www.youtube.com/watch?v=jtfV8TVopSk']
+ 
+
+  - teaser: cc
+    title: 'Color Constancy with Spatio-Spectral Statistics'
+    venue: 'PAMI 2012'
+    author: [*me, *keihir, *todzic]
+    buttons:
+      - ['paper', 'http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6109279']
+      - ['project', 'http://vision.seas.harvard.edu/colorconstancy/']
+ 
+
+  - teaser: hss
+    title: 'Statistics of Real-World Hyperspectral&nbsp;Images'
+    venue: 'CVPR 2011'
+    author: [*me, *todzic]
+    buttons:
+      - ['paper', 'http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=5995660']
+      - ['project', 'http://vision.seas.harvard.edu/hyperspec/']
+ 
+
+  - teaser: mvcc
+    title: 'Learning Object Color Models from Multi-view&nbsp;Constraints'
+    venue: 'CVPR 2011'
+    author: [*treowe, *katsae, *me, *yinxio, *todzic, *tredar]
+    buttons:
+      - ['paper', 'http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=5995705']
+ 
+
+  - teaser: svblur
+    title: 'Analyzing Spatially-varying Blur'
+    venue: 'CVPR 2010'
+    author: [*me, *todzic, *wilfre]
+    buttons:
+      - ['paper', 'http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=5539954']
+      - ['project', 'http://www.eecs.harvard.edu/~ayanc/svblur/']
+ 
+
+  - teaser: cmod
+    title: 'An Empirical Camera Model for Internet Color&nbsp;Vision'
+    venue: 'BMVC 2009'
+    author: [*me, *dansch, *todzic]
+    buttons:
+      - ['paper', 'http://gvi.seas.harvard.edu/sites/all/files/EmpiricalColor_BMVC2009.pdf']
+      - ['project', 'http://vision.middlebury.edu/color/']
+ 
+
+  - teaser: cc08
+    title: 'Color Constancy Beyond Bags of&nbsp;Pixels'
+    venue: 'CVPR 2008'
+    author: [*me, *keihir, *todzic]
+    buttons:
+      - ['paper', 'http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=4587664']
+ 
+
+  - teaser: dnz
+    title: 'Effective Separation of Sparse and Non-sparse Image Features for&nbsp;Denoising'
+    venue: 'ICASSP 2008'
+    author: [*me, *keihir]
+    buttons:
+      - ['paper', 'http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=4517745']
+ 
+
+  - teaser: kpcasr
+    title: 'Super-Resolution of Face Images Using Kernel PCA-Based&nbsp;Prior'
+    venue: 'IEEE Transactions on Multimedia 2007'
+    author: [*me, *anraj, *ramche]
+    buttons:
+      - ['paper', 'http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=4202583']
+ 
+
+  - teaser: seas
+    title: 'Visual Inference with Statistical Models for Color and&nbsp;Texture'
+    venue: 'Ph.D. Dissertation, Harvard&nbsp;University,&nbsp;2011'
+    author: [*me]
+    buttons:
+      - ['pdf', 'pdfs/ChakrabartiDissertation.pdf']
+ 
